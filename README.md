@@ -11,7 +11,7 @@ OGUploader - File/Image Uploader
         
         //Default Config Array. 
         $config = array(
-            'destination'   => '/uploads',
+            'destination'   => '/uploads', //creates a folder in the same place of this file.
             'maxSize'       => 1024 * 1024 * 2, // 2 MB
             'extensions'    => array('pdf','doc','docx','txt','rtf','gif','jpg','jpeg','png'), //lowercase
             'mimes'         => false, //array of strings.

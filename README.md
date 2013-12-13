@@ -16,8 +16,8 @@ OGUploader - File/Image Uploader
             'extensions'    => array('pdf','doc','docx','txt','rtf','gif','jpg','jpeg','png'), //lowercase
             'mimes'         => false, //array of strings.
             'uniqueName'    => true,
-            'imgMaxWidth'   => 400,
-            'imgMaxHeight'  => 400,
+            'imgMaxWidth'   => 400, //false to ignore
+            'imgMaxHeight'  => 400, //false to ignore
             'jpegQuality'   => 80,
             'thumb'         => true,
             'thumbSize'     => 200, //Square

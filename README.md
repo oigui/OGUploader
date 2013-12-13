@@ -26,6 +26,7 @@ OGUploader - File/Image Uploader
         
         $OGUp = new OGUploader($config);
         
+        //throw exceptions on errors/validations
         try{            
             $fileName = $OGUp->save($archive);
             var_dump($fileName);            
